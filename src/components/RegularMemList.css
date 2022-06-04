@@ -1,0 +1,11 @@
+.RegularMemList {
+    background-color: goldenrod;
+    height: auto;
+    text-align: center;
+    border-right: 15px solid black;
+    border-top: 15px solid black;
+  }
+
+  p {
+    color: white;
+  }

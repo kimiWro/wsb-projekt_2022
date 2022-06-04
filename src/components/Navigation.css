@@ -1,0 +1,60 @@
+.Navigation {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 2em 1fr 2em;
+    grid-template-rows: 15em 1fr 1fr 5em;
+    gap: 2em 0;
+    align-items: center;
+    justify-items: center;
+    border-left: 15px solid goldenrod;
+    border-top: 15px solid goldenrod;
+    color: goldenrod;
+}
+
+.Logo {
+  font-size: 2em;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border: 1px solid goldenrod;
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MemList {
+    padding: 0;
+    font-size: 1em;
+    list-style-type: none;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+li {
+  padding: 15px;
+  border: 1px solid goldenrod;
+  margin-bottom: 15px;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: .2s;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  .active {
+    color: white;
+  }
